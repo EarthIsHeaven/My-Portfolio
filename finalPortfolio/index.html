@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title>Profile</title>
+</head>
+
+<body>
+    <!--nav-->
+    <section class="colorful">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="nav nav-pills justify-content-center">
+                        <li class="nav-item">
+                            <a href="./contact.html" class="btn btn-primary" role="button" target="_blank">Say
+                                Hello</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--header section-->
+        <div class="px-4 pt-5 text-center" style="margin-top: 120px; padding-bottom: 3rem;">
+            <img class="d-block mx-auto mb-4" style="border-radius: 50%;" src="./images/me.jpg" alt="" width="150"
+                height="150">
+            <h1 class="display-5" style="margin-bottom: 3rem;">Hello</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">I am Thinley </br>Welcome to my website</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!--testimonial-->
+    <section id="testimonial">
+        <div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+            <div class="text-center rounded-3"
+                style=" padding-top: 50px; padding-bottom: 50px; padding-left: 50px; padding-right: 50px;">
+                <h2>Skills</h2>
+                <div class="row mt-5">
+                    <div class="col-12 col-sm-6 my-4 col-lg-3"><img src="./images/html.png" alt="image"
+                            style="height: 80px;">
+                    </div>
+                    <div class="col-12 col-sm-6 my-4 col-lg-3"><img src="./images/djangoImage.png" alt="image"
+                            style="height: 80px;">
+                    </div>
+                    <div class="col-12 col-sm-6 my-4 col-lg-3"><img src="./images/git.png" alt="image"
+                            style="height: 80px;">
+                    </div>
+                    <div class="col-12 col-sm-6 my-4 col-lg-3"><img src="./images/javaScript.jpeg" alt="image"
+                            style="height: 80px;">
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-sm-6 my-4 col-lg-3"><img src="./images/nodeExpress.png" alt="image"
+                            style="height: 80px;">
+                    </div>
+                    <div class="col-12 col-sm-6 my-4 col-lg-3"><img src="./images/jQuery.png" alt="image"
+                            style="height: 80px;">
+                    </div>
+                    <div class="col-12 col-sm-6 my-4 col-lg-3"><img src="./images/bootstrap.jpeg" alt="image"
+                            style="height: 80px;">
+                    </div>
+                    <div class="col-12 col-sm-6 my-4 col-lg-3"><img src="./images/css.png" alt="image"
+                            style="height: 80px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section class="colorful">
+        <div class="album py-5">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 60px;">
+                    <h2>Projects</h2>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./projectImage/simon.jpg" width="100%" style="height: 250px;" />
+                            <div class="card-body">
+                                <h2>Simon Game</h2>
+                                <p class="card-text">I created an interactive memory game where players follow a
+                                    sequence of colors, demonstrating my coding skills in JavaScript, jQuery,
+                                    animations, and event handling.</p>
+                                <a class="btn btn-primary" href="https://github.com/EarthIsHeaven"
+                                    role="button">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./projectImage/restautant.webp" width="100%" style="height: 250px;" />
+                            <div class="card-body">
+                                <h2>Django Project</h2>
+                                <p class="card-text">As the culmination of my Django framework course with Meta, I've
+                                    developed a dynamic restaurant website that offers a seamless experience for
+                                    customers and efficient tools for admins. </p>
+                                <a class="btn btn-primary" href="https://github.com/EarthIsHeaven"
+                                    role="button">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./projectImage/drum.jpg" width="100%" style="height: 250px;" />
+                            <div class="card-body">
+                                <h2>Drum kit</h2>
+                                <p class="card-text">The drum kit project enables users to play drum sounds by clicking
+                                    on buttons or pressing specific keys. Clicking on drum buttons triggers both sound
+                                    and animation effects. </p>
+                                <a class="btn btn-primary" href="https://github.com/EarthIsHeaven"
+                                    role="button">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./projectImage/qrCode.png" width="100%" style="height: 250px;" />
+                            <div class="card-body">
+                                <h2>QR Code Generator</h2>
+                                <p class="card-text">This Node.js QR code generator collects user URLs via inquirer,
+                                    creates a QR image using qr-image, saves it as 'url.png', and stores the URL in
+                                    'messageUrl.txt' via the native fs module.</p>
+                                <a class="btn btn-primary" href="https://github.com/EarthIsHeaven"
+                                    role="button">View</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Achievements and certificate-->
+    <section>
+        <div class="container" style="max-width: 41rem;">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Achievements</h2>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./images/back.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/front.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section class="colorful">
+        <div class="container">
+            <footer>
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top">
+                    <p>© 2023, Thinley</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-4"><a class="link-body-emphasis"
+                                href="https://www.linkedin.com/in/thinley-lama-842631252"><img src="./svg/linkedin.svg"
+                                    alt="" style="width: 2rem;" /></a></li>
+                        <li class="ms-4"><a class="link-body-emphasis" href="#"><img src="./svg/instagram.svg" alt=""
+                                    style="width: 2rem;" /></a></li>
+                        <li class="ms-4"><a class="link-body-emphasis" href="#"><img src="./svg/twitter.svg" alt=""
+                                    style="width: 2rem;" /></a></li>
+
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
